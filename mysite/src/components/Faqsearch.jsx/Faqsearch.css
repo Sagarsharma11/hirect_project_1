@@ -1,0 +1,30 @@
+.faq-search{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.faq-search h2 , p {
+    color: #3A3A3A;
+}
+.faq-search input{
+    border: 1px solid #B1B5B6;
+    height: 70px;
+    width: 450px;
+    border-radius: 3px;
+}
+.faq-search .search-wrapper{
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 500px;
+}
+.faq-search button{
+    position: absolute;
+    border: none;
+    right: 3px;
+    background-color: #3282AD;
+    color: white;
+    font-size: 45px;
+    top : 0.3px;
+    border-radius: 3px ;
+}
