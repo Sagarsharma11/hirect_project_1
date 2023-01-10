@@ -9,7 +9,7 @@
     padding-right: 0;
     
 }
-.contact-us h2 , p{
+.contact-us h2 , .contact-us p{
 
     color: white;
 }
@@ -27,4 +27,43 @@
     border-radius: 40px;
     margin-left: 243px;
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact-us{
+        margin-top: 20px;
+        background-color: #307EA7;
+        width: 100% !important;
+        min-height: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    .contact-us h2 {
+        color: white;
+        margin-top: 20px;
+    }
+    .contact-us p{
+        color: white;
+    }
+    .contact-us h2{
+        margin-top: 30px;
+    }
+    .contact-us i{
+        color: #307DA6;
+        background-color: white;
+        font-size: 15px;
+        margin-top: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        border-radius: 40px;
+        margin-left: 43%;
+        margin-bottom: 30px;
+    }
+
 }

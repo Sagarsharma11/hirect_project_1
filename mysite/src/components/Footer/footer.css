@@ -1,0 +1,247 @@
+.footer {
+    margin-top: 200px;
+    width: 100% !important;
+}
+
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+
+.bg-img {
+    height: 90vh;
+    background-image: url('../images/Vector.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    color: #4EABC5;
+    position: relative;
+}
+
+.bg-image-wrapper {
+    margin-top: 200px !important;
+    background: rgba(78, 171, 197, 0.72);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+
+}
+
+.footer .download-img {
+    height: 400px;
+    position: absolute;
+    z-index: 999;
+    top: -200px;
+    left: 180px;
+    width: 80%;
+    margin: auto;
+}
+
+.company-info {
+    margin-left: 50px;
+}
+
+.company-info p {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.company-info i {
+    margin-top: 100px;
+    background-color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bg-image-wrapper .logo-img {
+    margin-top: 250px;
+    margin-left: 10px;
+
+}
+
+.company h4 {
+    font-size: 34px;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.company ul li {
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 28px;
+    margin-left: 99px;
+}
+
+.about h4 {
+    font-size: 34px;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.about ul li {
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 28px;
+    margin-left: 117px;
+}
+
+.contactus h4 {
+    font-size: 34px;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.contactus ul li {
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 28px;
+    margin-left: 85px;
+}
+
+.footer .col-sm-12 .row {
+    height: 80vh !important;
+    border-bottom: 3px solid #ffffff !important;
+}
+
+.footer .col-sm-12 .row footer p {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.this_mobile_row {
+    display: none;
+}
+
+.mobile_social_media {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+    body{
+        overflow-x: hidden !important ;
+    }
+    .mobile_social_media {
+        display: block;
+    }
+    .this_mobile_row {
+        display: block;
+        margin-top: 100px;
+    }
+
+    .this_mobile_row select {
+        border: 1px solid #fff;
+        margin-top: 10px;
+        background-color: transparent;
+        border: 1px solid #3FA0BE;
+    }
+
+    .this_mobile_row option {
+        background-color: #82caff;
+    }
+
+    .this_row {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 100px;
+        width: 100% !important;
+    }
+
+    .bg-img {
+        height: 600px;
+        background-image: url('../images/Vector.png');
+        background-size: contain;
+        background-repeat: repeat-x;
+        color: #4EABC5;
+        position: relative;
+    }
+
+    .bg-image-wrapper {
+        margin-top: 200px !important;
+        background: rgba(78, 171, 197, 0.72);
+        overflow: hidden;
+        height: 100%;
+        z-index: 2;
+
+    }
+
+    .footer .download-img {
+        height: 100px;
+        position: absolute;
+        z-index: 999;
+        top: -60px;
+        left: 40px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .company-info {
+        margin-left: 50px;
+    }
+
+    .company-info p {
+        margin-top: 50px;
+        margin-left: 10px;
+        color: white;
+        display: none;
+    }
+
+    .bg-image-wrapper .logo-img {
+        margin-top: 60px;
+        margin-left: 10px;
+        display: none;
+
+    }
+
+    .footer .col-sm-12 .row .mobile_social_media {
+        margin-top: -500px !important;
+        height: 100px !important;
+        border-bottom: 3px solid white !important;
+    }
+
+    .footer .col-sm-12 .row footer p {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    .mobile_social_media{
+        width: 100%;
+        margin-left: -10px;
+        margin-top: -100px !important;
+    }
+    .mobile_social_media i{
+        float: left;
+        margin-top: 0px !important;
+        background-color: white;
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 10px;
+        border-radius: 30px;
+
+    }
+    .mobile_social_media .fa-facebook{
+        margin-left: 24%;
+    }
+
+}

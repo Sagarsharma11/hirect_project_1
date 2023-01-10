@@ -1,0 +1,42 @@
+.two-video{
+    background-color: #F6FDFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.video-wrapper-2 {
+    margin-top: 20px ;
+}
+.video-wrapper-2 .video-2 img{
+    position: relative;
+    width: 80%;
+    height: 400px;
+}
+.video-wrapper-2 .left i {
+    position: absolute;
+    top: 150px;
+    left:55%;
+    font-size: 80px;
+    color: white;
+}
+
+.video-wrapper-2 .right i{
+    position: absolute;
+    top: 150px;
+    right:55%;
+    font-size: 80px;
+    color: white;
+}
+.full-video-gallery{
+    margin-top: 100px !important;
+}
+
+.discover-more{
+    background-color: transparent;
+    border: 1px solid #3282AD;
+    color: #3282AD;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}

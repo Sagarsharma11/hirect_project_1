@@ -1,0 +1,103 @@
+.map-wrapper{
+    margin-top: 30px;
+}
+.map{
+    height: 550px;
+    width: 750px;
+    opacity: 0.5;
+}
+.form form label{
+    font-size: 28px;
+    color: #3A3A3A !important;
+}
+.form form input{
+    height: 60px;
+    border: 1px solid #A2A8AB;
+    width: 700px;
+}
+.form form textarea{
+    height: 230px;
+    width: 700px;
+    border: 1px solid #A2A8AB;
+}
+.form form button{
+    background-color: #3282AD;
+    color: white;
+    padding-left: 30px !important; 
+    padding-right: 30px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.left {
+    position: relative;
+    /* background: #F48024; */
+    /* width:576px; */
+    /* height: 324px; */
+}
+
+.right {
+    position: relative;
+    /* background: #EFF0F1;
+    width:576px;
+    height: 324px; */
+}
+
+@media only screen and (max-width: 600px) {
+
+    .this_map{
+        margin-top: 20px;
+    }
+    .form{
+        margin-top: 10px;
+    }
+    .map-wrapper{
+        margin-top: 30px;
+    }
+    .map{
+        height: 300px;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .form form label{
+        
+        font-size: 18px;
+        color: #3A3A3A !important;
+    }
+    .form form input{
+        height: 40px;
+        border: 1px solid #A2A8AB;
+        width: 100%;
+    }
+    .form form textarea{
+        height: 100px;
+        width: 100%;
+        border: 1px solid #A2A8AB;
+    }
+    .form form button{
+        background-color: #3282AD;
+        color: white;
+        padding-left: 30px !important; 
+        padding-right: 30px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .main {
+        justify-content: space-between;
+    }
+  
+    .left {
+        order:2;
+    }
+  
+    .right {
+        order:1;
+    }
+}
