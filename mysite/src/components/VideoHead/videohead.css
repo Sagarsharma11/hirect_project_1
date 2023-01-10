@@ -1,0 +1,25 @@
+.video-wrapper h2{
+    margin-left: 170px !important;
+}
+.video-wrapper h4{
+    margin-left: 170px !important;
+}
+.video-wrapper p{
+    margin-left: 170px !important;
+}
+
+.video-wrapper .video img{
+    display: block;
+    position: relative;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+.video-wrapper .video i{
+    position: absolute;
+    top: 950px;
+    left:47%;
+    font-size: 80px;
+    color: white;
+        
+}

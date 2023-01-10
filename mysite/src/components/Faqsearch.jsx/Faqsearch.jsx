@@ -6,11 +6,11 @@ const Faqsearch = () => {
         <div className='row faq-search'>
             <div className="col-sm-12">
                 <h2 className='text-center'>Frequently asked questions</h2>
-                <p className='text-center'>Have questions ? We’re here to help.</p>
+                <p className='text-center text-dark'>Have questions ? We’re here to help.</p>
                 <div className='search-wrapper'>
-                <input cla placeholder=' Search a question' />
+                <input type="text" placeholder=' Search a question' />
                     <button>
-                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        <i className="fa-sharp fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
             </div>
